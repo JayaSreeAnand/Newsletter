@@ -1,0 +1,50 @@
+
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter Signup</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Join the Bunch</h1>
+            <p>From our experts to your inbox</p>
+        </header>
+
+        <main>
+            <section id="benefits">
+                <ul>
+                    <li>Exclusive content delivered to your inbox</li>
+                    <li>Early access to new features and products</li>
+                    <li>Special discounts for subscribers only</li>
+                </ul>
+            </section>
+
+            <section id="sign-up-form">
+                <form id="newsletter-form" novalidate>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" name="name" id="name" placeholder="Charles" required>
+                        <span class="error-message"></span>
+
+                        <label for="email">Email Address</label>
+                        <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                        <span class="error-message"></span>
+                    </div>
+                    <button type="submit">Subscribe Now</button>
+                </form>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 Your Company. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
